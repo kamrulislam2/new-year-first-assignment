@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header Section Style */
+.header-section{
+    background-image: url("../images/banner/banner1.png");
+    width: 1600px;
+    height: 808px;
+}
+.header-div{
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-left: 845px;
+    text-align: right;
+    width: 30%;
+
+}
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 26px;
+    color: #444343;
+}
+.primary-btn{
+    background-color: #F15B22;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 5px;
+}
