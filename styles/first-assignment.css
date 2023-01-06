@@ -1,13 +1,15 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
-/* Header Section Style */
-.header-section{
+header{
     background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
 }
+/* Header Section Style */
 .header-div{
     padding-top: 216px;
     padding-right: 230px;
@@ -37,4 +39,44 @@
     color: #FFFFFF;
     border: 1px solid;
     border-radius: 5px;
+}
+/* Main section: failur section styles */
+.section-failur{
+    padding: 130px 322px 130px 206px;
+}
+.failur-division{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+
+}
+.failur-text-info {
+    padding-top: 120px;
+    width: 50%;
+}
+.failur-info-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.failur-info-description{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 16px;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: #16D887;
+    padding-right: 10px;
+    font-weight: 900;
+  }
+.failur-info-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
