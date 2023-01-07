@@ -194,11 +194,50 @@ footer{
     width: 170px;
     background-color: #FFFFFF;
     
-    color: #F15B22;;
+    color: #F15B22;
     font-weight: 600;
     font-size: 20px;
 
     border: 1px solid #FFFFFF;
     border-radius: 8px;
 }
-/* End of Assignment */
+/* End of Main Assignment Part */
+/* Extra Out of the box part styles */
+.blog-info{
+    width: 45%;
+    text-align: center;
+    padding: 0px 430px;
+}
+.blog-info-head{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+.blog-info-description{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 60px;
+}
+.blog-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0px 230px;
+    gap: 80px;
+}
+.blog-img{
+    width:300px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+.blog-title{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #363535;
+    margin-bottom: 16px;
+}
+.blog-description{
+    color: #4c4848;
+    font-size: 18px;
+    font-weight: 400px;
+}
